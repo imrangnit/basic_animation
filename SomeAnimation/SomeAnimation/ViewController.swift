@@ -79,10 +79,10 @@ class ViewController: UIViewController {
                 ___weak?.widthConstraint.constant = 100
                 ___weak?.widthConstraintLabel.constant = 0
                 
-                ___weak?.navigationController?.pushViewController(UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SignUpVC"), animated: true)
+//                ___weak?.navigationController?.pushViewController(UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SignUpVC"), animated: true)
             }
             
-            ___weak?.widthConstraint.constant = ___weak!.widthConstraint.constant + 1
+//            ___weak?.widthConstraint.constant = ___weak!.widthConstraint.constant + 1
             ___weak?.widthConstraintLabel.constant = ___weak!.widthConstraintLabel.constant + 1
             
             
